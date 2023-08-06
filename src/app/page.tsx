@@ -1,7 +1,7 @@
+import { fetchBooks } from "@/api/fetchBooks";
+
 export default function Home() {
-  return (
-    <main>
-      <div>page</div>
-    </main>
-  );
+  console.log("hi");
+
+  return <main>{/* <div>{books}</div> */}</main>;
 }
